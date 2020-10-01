@@ -6,13 +6,15 @@ FORMSPREE.IO
 
 Functional HTML forms. Hosted at [https://formspree.io](https://formspree.io).
 
-Just send your form to our URL and we'll forward it to your email. No PHP, Javascript or sign up required — perfect for static sites!
+you Just send your form to our URL and we'll forward it to your email. No PHP, Javascript or sign up required — perfect for static sites!
 Example:
 
 ```html
+//This is basic html form 
 <form action="https://formspree.io/you@email.com">
-    <input type="text" name="name">
-    <input type="email" name="_replyto">
+    <input type="email" name="email" size=20" widthlength="20">
+    <input type="text" name="name" size=20" widthlength="20">
+    <input type="email" name="_replyto" size=20" widthlength="20">
     <input type="submit" value="Send">
 </form>
 ```
